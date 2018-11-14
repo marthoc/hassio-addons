@@ -5,6 +5,7 @@
 |Add-on|Description|
 |------|-----------|
 |**deCONZ**|Control a ZigBee network with Conbee or RaspBee by Dresden Elektronik.|
+|**DNS-O-Matic**|Dynamic DNS via DNS-O-Matic.|
 
 ## Installation
 

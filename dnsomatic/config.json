@@ -1,0 +1,21 @@
+{
+    "name": "DNS-O-Matic",
+    "version": "1.0",
+    "slug": "dnsomatic",
+    "description": "Dynamic DNS via DNS-O-Matic",
+    "url": "https://github.com/marthoc/hassio-addons/tree/master/dnsomatic",
+    "startup": "application",
+    "boot": "auto",
+    "options": {
+      "hostname": null,
+      "username": null,
+      "password": null,
+      "update_interval": 3600
+    },
+    "schema": {
+      "hostname": "str",
+      "username": "str",
+      "password": "str",
+      "update_interval": "int(300,)"
+    }
+  }
