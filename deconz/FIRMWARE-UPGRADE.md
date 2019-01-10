@@ -16,6 +16,16 @@ GW update firmware found: /usr/share/deCONZ/firmware/deCONZ_Rpi_0x261e0500.bin.G
 GW firmware version: 0x261c0500
 GW firmware version shall be updated to: 0x261e0500
 ```
+
+Alternatively you can log into your Hass.io host over SSH (set up in step 1) and run this command to extract the GCF line:
+```docker ps | grep deconz | awk '{print $NF}' | while read cont; do echo "Searching in $cont"; docker logs $cont 2>&1 | grep 'GCF\|firmware version'; done
+
+Searching in addon_a0d7b954_deconz
+23:59:37:341 GW update firmware found: /usr/share/deCONZ/firmware/deCONZ_Rpi_0x262f0500.bin.GCF
+23:59:38:534 Device firmware version 0x261F0500
+00:01:47:443 GW firmware version: 0x261f0500
+```
+
 2. Stop the deCONZ add-on.
 3. Log in to your Hass.io host over SSH (set up in step 1).
 4. Invoke the firmware upgrade script:  
