@@ -26,6 +26,10 @@ Raise any issues with this Add-on as an issue at https://github.com/marthoc/hass
 
 You can upgrade the firmware of your RaspBee / Conbee device by following the instructions here: https://github.com/marthoc/hassio-addons/blob/master/deconz/FIRMWARE-UPGRADE.md. 
 
+## Viewing the deCONZ ZigBee Mesh
+
+Set the configuration variable 'vnc active' to true to enable a VNC server in the Add-on that will allow you to connect to the addon at the port 'vnc port' using the password 'vnc password' to view the deCONZ ZigBee Mesh. (Thanks to @neffs for adding this long-requested feature!) (Note: the default password is "changeme" but this should be changed before enabling VNC.)
+
 ## Important!!
 
 This Add-on's version number tracks deCONZ releases from Dresden Elektronik; changes to this Add-on's base image and settings may be made between deCONZ releases and incorporated when a new deCONZ version is released. A list of important/relevant changes is available at: https://github.com/marthoc/hassio-addons/blob/master/deconz/CHANGELOG.md.
