@@ -1,5 +1,11 @@
 # Changelog
 
+## **2.05.55** - 2018-01-15
+### Added
+- Add VNC server support for viewing the deCONZ ZigBee mesh
+### Changed
+- Bump deCONZ to 2.05.54
+
 ## **2.05.54** - 2018-01-08
 ### Changed
 - Bump deCONZ to 2.05.54
