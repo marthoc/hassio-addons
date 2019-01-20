@@ -1,5 +1,11 @@
 # Changelog
 
+## **2.05.57** - 2019-01-20
+### Changed
+- Bump deCONZ to 2.05.57
+### Fixed
+- Fix Hass.io start scripts
+
 ## **2.05.55.1** - 2019-01-16
 ### Fixed
 - Fixed bugs in startup script
