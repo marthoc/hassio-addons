@@ -3,6 +3,7 @@
     "version": "1.1",
     "slug": "dnsomatic",
     "description": "Dynamic DNS via DNS-O-Matic",
+    "arch": ["amd64","armhf","aarch64"],
     "url": "https://github.com/marthoc/hassio-addons/tree/master/dnsomatic",
     "startup": "application",
     "boot": "auto",
