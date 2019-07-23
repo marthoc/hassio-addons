@@ -1,5 +1,9 @@
 # Changelog
 
+## **2.05.66** - 2019-07-22
+### Changed
+- Added discontinued message to README
+
 ## **2.05.66** - 2019-06-25
 ### Changed
 - Bump deCONZ to 2.05.66
