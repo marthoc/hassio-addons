@@ -1,6 +1,6 @@
 # marthoc deCONZ
 
-**IMPORTANT: This add-on is discontinued. Please switch to the deCONZ add-on in the Hass.io official repo. This add-on will not be updated past 2.05.66 and will eventually be deleted entirely. No fixes for any open issues will be forthcoming.**
+**IMPORTANT: This add-on is discontinued. Please switch to the [deCONZ add-on in the Hass.io official repo](https://github.com/home-assistant/hassio-addons/tree/master/deconz). This add-on will not be updated past 2.05.66 and will eventually be deleted entirely. No fixes for any open issues will be forthcoming.**
 
 ## Migrating to the official Add-on
 
